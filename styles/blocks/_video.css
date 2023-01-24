@@ -1,0 +1,30 @@
+.video{
+    height: 800px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 1;
+    border-bottom: 1px solid var(--primary);
+}
+.video > div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18rem;
+}
+.video > div > h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.video > div > button{
+    background-color: transparent;
+    border: 2px solid var(--primary);
+    background: none;
+}
+video{
+    width: 100%;
+    z-index: -1;
+}

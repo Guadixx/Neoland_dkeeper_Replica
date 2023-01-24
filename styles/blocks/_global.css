@@ -1,0 +1,58 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--background);
+    color: var(--primary);
+    min-height: 100vh;
+}
+h1,
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+button{
+    height: 42px;
+    width: 135px;
+    outline: none;
+    border: none;
+    background-color: #111111;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    margin:3rem;
+}
+button:hover{
+    background-color: #423f3f;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+input{
+    border: none;
+    background: none;
+    border-bottom: 2px solid var(--primary);
+    color: var(--primary);
+    outline: none;
+    padding-bottom: 3px;
+}
+
+input::hover{
+    color:var(--primary);
+}
+
+.tech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; 
+}
+
+.tech h3 {
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing:3px;
+}
